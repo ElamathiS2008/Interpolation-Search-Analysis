@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Interpolation Search Analysis</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Interpolation Search Analysis</h1>
+
+    <form method="POST">
+
+        <label>Enter Sorted Array Elements</label>
+
+        <input
+            type="text"
+            name="array"
+            placeholder="10 20 30 40 50"
+            required>
+
+        <label>Enter Target Element</label>
+
+        <input
+            type="number"
+            name="target"
+            placeholder="40"
+            required>
+
+        <button type="submit">
+            Search
+        </button>
+
+    </form>
+
+    {% if result %}
+
+        <div class="result">
+
+            <h2>{{ result }}</h2>
+
+        </div>
+
+    {% endif %}
+
+</div>
+
+</body>
+</html>
