@@ -85,4 +85,6 @@ for both Interpolation Search and Binary Search.
 
 ##Author
 
-Elamathi S
+ELAMATHI S
+Dept:AI&DS
+Chennai Institute of Technology
